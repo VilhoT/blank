@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Koira</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        koirulilaskuri
+    </header>
+    <div class="container">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="images/koira1.jpeg" class="slide-image">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="images/koira2.jpeg" class="slide-image">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="images/koira3.jpeg" class="slide-image">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="images/koira4.jpeg" class="slide-image">
+                <div class="text"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="images/terttu.jpg" class="slide-image">
+                <div class="text"></div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>    
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </div>
+        <div class="countdown-container">
+            <h2>Aikaa kunnes pennut saapuvat</h2>
+            <div id="countdown"></div>
+        </div>
+    </div>
+    <footer>
+        <ul class="footer-links">
+            <li><a href="https://www.kennelliitto.fi/koiran-omistaminen/koiran-hankkiminen/hyvaa-elamaa-koiran-kanssa-podcast">Koirankasvatus podcasteja</a></li>
+            <li><a href="https://www.kennelliitto.fi/tietoa-meista/blogi/miten-kouluttaa-koiria-tuloksekkaasti-ja-elainystavallisesti">Koirankasvatus blogi</a></li>
+        </ul>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
